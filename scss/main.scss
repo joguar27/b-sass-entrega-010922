@@ -5,31 +5,23 @@
 }
 
 @import "./secciones/main-index";
-@import './secciones/header';
-@import './secciones/footer';
-@import './secciones/coches';
-@import './secciones/sucursales';
-@import './secciones/tarifas';
-@import './secciones/contacto';
+@import "./secciones/header";
+@import "./secciones/footer";
+@import "./secciones/coches";
+@import "./secciones/sucursales";
+@import "./secciones/tarifas";
+@import "./secciones/contacto";
 
+// .grid-container img {
+//   width: 200px;
+//   padding: 15px;
+// }
 
-
-.grid-container img {
-  width: 200px;
-  padding: 15px;
-}
-
-
-
-
-
-
-
-.titulo {
-  font-size: 3rem;
-  font-family: "Times New Roman", Times, serif;
-  font-weight: bold;
-}
+// .titulo {
+//   font-size: 3rem;
+//   font-family: "Times New Roman", Times, serif;
+//   font-weight: bold;
+// }
 
 .grid-container {
   max-width: 850px;
@@ -41,15 +33,7 @@
 
 /* cards coches*/
 
-
 /* carousel */
-
-
-
-
-
-
-
 
 @media (max-width: 850px) {
   .header {
