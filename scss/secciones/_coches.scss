@@ -1,23 +1,36 @@
 .main-coches {
-    min-height: 100vh;
-    background-color: #c1e3ed;
-    text-align: center;
-  }
+  min-height: 100vh;
+  background-color: #c1e3ed;
+  text-align: center;
+  padding-top: 55px;
+}
 
-  .row {
-    justify-content: space-around;
-  }
-  
-  .color-boton {
-    background-color: #8c60b4;
-    color: white;
-  }
-  
-  .btn {
-    background-color: #c99bd4;
-    color: black;
-  }
-  
-  .btn:hover {
-    background-color: #a4649d;
-  }
+.titulo-2 {
+  font-size: 30px;
+}
+
+.opciones {
+  padding-bottom: 20px;
+  max-width: 50vh;
+  margin: 0 auto;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.row {
+  justify-content: space-around;
+}
+
+.color-boton {
+  background-color: #8c60b4;
+  color: white;
+}
+
+.btn {
+  background-color: #c99bd4;
+  color: black;
+}
+
+.btn:hover {
+  background-color: #a4649d;
+}
