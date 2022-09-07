@@ -4,6 +4,9 @@
   box-sizing: border-box;
 }
 
+@import './variables/colores';
+
+
 @import "./secciones/main-index";
 @import "./secciones/header";
 @import "./secciones/footer";
