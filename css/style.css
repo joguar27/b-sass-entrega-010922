@@ -59,14 +59,23 @@
   display: flex;
   justify-content: space-between;
   align-items: center; }
+  .header__logo {
+    margin-left: 30px; }
+  .header__ul {
+    list-style: none;
+    display: flex; }
+    .header__ul--active {
+      font-weight: 900; }
 
 .header img {
   width: 150px;
-  padding: 15px; }
+  padding: 15px;
+  transform: skew(-20deg); }
 
-.header ul {
-  list-style: none;
-  display: flex; }
+.logo-h2 {
+  color: white;
+  font-size: 6px;
+  /* transform: skew(35deg); */ }
 
 .header li {
   padding: 10px; }
