@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,400;0,600;0,900;1,500&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -5,9 +6,9 @@
 
 .main-index {
   min-height: 100vh;
-  background-color: #c1e3ed;
   text-align: center;
-  padding-top: 55px; }
+  padding-top: 55px;
+  background-image: radial-gradient(#aa7d7d, #605e5e); }
 
 .main-index h1 {
   padding-bottom: 25px; }
@@ -75,14 +76,18 @@
 .logo-h2 {
   color: white;
   font-size: 6px;
+  margin-left: 10px;
+  transform: skew(-20deg);
   /* transform: skew(35deg); */ }
 
 .header li {
-  padding: 10px; }
+  padding: 15px;
+  margin-right: 10px; }
 
 .header a {
   color: white;
-  text-decoration: none; }
+  text-decoration: none;
+  font-family: "Raleway", sans-serif; }
 
 .header a:hover {
   color: #4b2840;
@@ -96,7 +101,7 @@
   width: 450px;
   margin: 0 auto;
   padding: 30px;
-  justify-content: center; }
+  justify-content: space-between; }
 
 .footer li {
   padding: 5px;
